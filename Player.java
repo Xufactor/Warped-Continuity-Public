@@ -1,16 +1,15 @@
 package core;
 
+import gui.Canvas;
+import java.awt.BasicStroke;
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
-import java.awt.BasicStroke;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
-
-import gui.Canvas;
 import other.Pair;
 
 public class Player {
@@ -39,8 +38,8 @@ public class Player {
 	// y acceleration
 	private int ddy;
 	
+	// character changes stance when it is blocked from the left or right
 	private String stance;
-	// player changes stance when it is blocked from the left or right
 	
 	public Pair<Integer, Integer> deathLocation;
 	
