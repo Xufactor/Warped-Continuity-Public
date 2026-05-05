@@ -15,7 +15,7 @@ import other.Pair;
 
 public class Board {
 
-	// dimensions of the screens, most of the levels are 2x2
+	// dimensions of the board, most of the levels are 2x2 screens
     private final int rows;
     private final int cols;
 
