@@ -28,7 +28,7 @@ public class Board {
 	// number of times the screens have been shifted, used for scoring
     private int numOfScreenShifts;
     
-	// length of the screens in screen mode
+	// length of each screen in screen mode
     private final int screenSize;
 	// starting x and y coordinates for drawing the screens in screen mode
     private final int startX;
